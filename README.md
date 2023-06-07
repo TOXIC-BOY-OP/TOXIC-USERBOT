@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<p align="center">𝐙𝐚𝐢𝐝 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 🔥 </p>
+<p align="center">𝗧𝗢𝗫𝗜𝗖-𝗨𝗦𝗘𝗥𝗕𝗢𝗧 🔥 </p>
 
 - A First Telegram Userbot Project With Multi Clients Based On PyroGram
 
@@ -50,13 +50,13 @@ Checkout Tutorial!
 
 ## VPS/Locally deploy!
 ```console
-Zaid@Debian~ $ apt-get -y update
-Zaid@Debian~ $ apt-get -y install git gcc python3-pip -y
-Zaid@Debian~ $ git clone https://github.com/ITZ-ZAID/ZAID-USERBOT
-Zaid@Debian~ $ cd ZAID-USERBOT
-Zaid@Debian~ $ pip3 install -U -r requirements.txt
-Zaid@Debian~ $ cp sample.env .env
-Zaid@Debian~ $ nano .env
+Toxic@Debian~ $ apt-get -y update
+Toxic@Debian~ $ apt-get -y install git gcc python3-pip -y
+Toxic@Debian~ $ git clone https://github.com/TOXIC-BOY-OP/TOXIC-USERBOT
+Toxic@Debian~ $ cd TOXIC-USERBOT
+Toxic@Debian~ $ pip3 install -U -r requirements.txt
+Toxic@Debian~ $ cp sample.env .env
+Toxic@Debian~ $ nano .env
 ```
 
 <h3 align="center">
@@ -64,8 +64,8 @@ Zaid@Debian~ $ nano .env
 </h3>
 
 ```console
-Zaid@Debian~ $ screen
-Zaid@Debian~ $ python3 -m Zaid
+Toxic@Debian~ $ screen
+Toxic@Debian~ $ python3 -m Toxic
 ```
 
 ## Disclaimer 
@@ -86,7 +86,7 @@ and you ended up in a Finale Battle with Telegram and at the end
 ```
 
 ## Credits 💖
-- Zect Userbot
+- Toxic Userbot
 - Man
 - pyrogram
 - xyz ⚡
