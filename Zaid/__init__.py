@@ -18,13 +18,13 @@ if API_ID:
    API_ID = API_ID
 else:
    print("WARNING: API ID NOT FOUND USING ZAID API ⚡")
-   API_ID = "6435225"
+   API_ID = "25374274"
 
 if API_HASH:
    API_HASH = API_HASH
 else:
    print("WARNING: API HASH NOT FOUND USING ZAID API ⚡")   
-   API_HASH = "4e984ea35f854762dcde906dce426c2d"
+   API_HASH = "d0012f0876e6f9308eec2f474e7b9273"
 
 if not BOT_TOKEN:
    print("WARNING: BOT TOKEN NOT FOUND PLZ ADD ⚡")   
@@ -34,7 +34,7 @@ app = Client(
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="Zaid/modules/bot"),
+    plugins=dict(root="Toxic/modules/bot"),
     in_memory=True,
 )
 
