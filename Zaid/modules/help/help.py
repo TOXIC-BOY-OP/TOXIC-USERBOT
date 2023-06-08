@@ -4,9 +4,9 @@ from prettytable import PrettyTable
 from pyrogram import Client, enums, filters
 from pyrogram.types import Message
 
-from Zaid import app, CMD_HELP
-from Zaid.helper.PyroHelpers import ReplyCheck
-from Zaid.helper.utility import split_list
+from Toxic import app, CMD_HELP
+from Toxic.helper.PyroHelpers import ReplyCheck
+from Toxic.helper.utility import split_list
 
 
 async def edit_or_reply(message: Message, *args, **kwargs) -> Message:
@@ -38,13 +38,13 @@ async def module_help(client: Client, message: Message):
             print(f"{e}")
             ac = PrettyTable()
             ac.header = False
-            ac.title = "Zaid-UserBot Plugins"
+            ac.title = "Toxic-UserBot Plugins"
             ac.align = "l"
             for x in split_list(sorted(CMD_HELP.keys()), 2):
                 ac.add_row([x[0], x[1] if len(x) >= 2 else None])
             xx = await client.send_message(
                 message.chat.id,
-                f"```{str(ac)}```\n• @TheSupportChat × @TheUpdatesChannel •",
+                f"```{str(ac)}```\n• @DOSTO_KI_M3HFIL × @HEROKU_CREDIT_CARD2 •",
                 reply_to_message_id=ReplyCheck(message),
             )
             await xx.reply(
@@ -80,7 +80,7 @@ async def module_helper(client: Client, message: Message):
     elif not message.reply_to_message and len(cmd) == 1:
         ac = PrettyTable()
         ac.header = False
-        ac.title = "Zaid-UserBot Plugins"
+        ac.title = "Toxic-UserBot Plugins"
         ac.align = "l"
         for x in split_list(sorted(CMD_HELP.keys()), 2):
             ac.add_row([x[0], x[1] if len(x) >= 2 else None])
