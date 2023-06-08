@@ -7,7 +7,7 @@ if os.path.exists("local.env"):
 
 
 API_ID = int(getenv("API_ID", "25374274")) #optional
-API_HASH = getenv("API_HASH", "") #optional
+API_HASH = getenv("API_HASH", "d0012f0876e6f9308eec2f474e7b9273") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1939017724").split()))
 OWNER_ID = int(getenv("OWNER_ID", "6109531260"))
